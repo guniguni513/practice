@@ -21,7 +21,5 @@ public class RouletteController : MonoBehaviour
        } 
        //回転速度分、ルーレットを回転させる
        transform.Rotate(0,0,this.rotSpeed);
-
-       this.rotSpeed *= 0.99f;
     }
 }
